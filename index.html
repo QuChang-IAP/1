@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人主页</title>
+    <!-- 引入 Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <!-- 引入 Font Awesome 图标 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- 更新 iconfont 引用为新的链接 -->
+    <link rel="stylesheet" href="//at.alicdn.com/t/c/font_4487524_0qw0hx4mpyvi.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-brand">
+            <h1>渠畅</h1>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">首页</a></li>
+            <li><a href="#about">关于我</a></li>
+            <li><a href="#portfolio">作品集</a></li>
+            <li><a href="#contact">联系方式</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- 轮播图区域 -->
+    <section id="home" class="carousel-section">
+        <div class="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item">
+                    <img src="images/1.jpg" alt="个人照片">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 简介区 -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>关于我</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p><i class="fas fa-user"></i> 我是一名热爱气象的博士生</p>
+                    <p><i class="fas fa-graduation-cap"></i> 大气科学学士学位</p>
+                    <p><i class="fas fa-heart"></i> 热爱编程、设计和创新</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 作品集部分 -->
+    <section id="portfolio" class="portfolio-section">
+        <div class="container">
+            <h2>作品集</h2>
+            <div class="papers-grid">
+                <div class="paper-card">
+                    <h3>淮河小流域多源降水数据产品径流模拟对比分析</h3>
+                    <p class="paper-description">本研究对比分析了不同降水数据产品在淮河小流域的应用效果，为水文模拟和预报提供数据支持。</p>
+                    <div class="paper-actions">
+                        <a href="lunwen/1.pdf" class="paper-btn" target="_blank">
+                            <i class="fas fa-eye"></i> 查看
+                        </a>
+                        <a href="lunwen/1.pdf" class="paper-btn" download>
+                            <i class="fas fa-download"></i> 下载
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer>
+        <div class="social-links">
+            <a href="#" title="bilibili" class="social-link">
+                <i class="iconfont icon-bilibili"></i>
+            </a>
+            <a href="images/2.jpg" title="微信" class="social-link" target="_blank">
+                <i class="fab fa-weixin"></i>
+            </a>
+            <a href="#" title="抖音" class="social-link">
+                <i class="iconfont icon-douyin"></i>
+            </a>
+            <a href="#" title="小红书" class="social-link">
+                <i class="iconfont icon-xiaohongshu"></i>
+            </a>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2024 渠畅. 保留所有权利。</p>
+        </div>
+    </footer>
+</body>
+</html> 
